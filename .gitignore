@@ -4,7 +4,7 @@
 data/raw/
 data/clean/
 
-# permitir solo dataset sample
+# permitir solo sample publico
 !data/sample/
 !data/sample/publicaciones_inta_sample.csv
 
@@ -13,17 +13,26 @@ data/clean/
 # ================================
 __pycache__/
 *.pyc
+
+# ================================
+# JUPYTER
+# ================================
 .ipynb_checkpoints/
 
 # ================================
 # ENTORNOS
 # ================================
 venv/
-.env
+.env/
+
+# ================================
+# SISTEMA
+# ================================
+.DS_Store
+Thumbs.db
 
 # ================================
 # TEMPORALES
 # ================================
+*.log
 ~$*
-.DS_Store
-Thumbs.db

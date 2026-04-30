@@ -1,23 +1,29 @@
-# Datos reales / institucionales
+# ================================
+# DATOS INSTITUCIONALES PRIVADOS
+# ================================
 data/raw/
-data/clean/*.xlsx
-data/clean/*.xls
-data/clean/*.csv
+data/clean/
 
-# Permitimos solo muestras públicas
+# permitir solo dataset sample
 !data/sample/
-!data/sample/*
+!data/sample/publicaciones_inta_sample.csv
 
-# Python
+# ================================
+# PYTHON
+# ================================
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-# Entornos
+# ================================
+# ENTORNOS
+# ================================
 venv/
 .env
 
-# Archivos temporales
+# ================================
+# TEMPORALES
+# ================================
 ~$*
 .DS_Store
 Thumbs.db

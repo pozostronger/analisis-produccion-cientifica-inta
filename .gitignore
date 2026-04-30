@@ -1,16 +1,23 @@
+# Datos reales / institucionales
+data/raw/
+data/clean/*.xlsx
+data/clean/*.xls
+data/clean/*.csv
+
+# Permitimos solo muestras públicas
+!data/sample/
+!data/sample/*
+
 # Python
 __pycache__/
 *.pyc
-
-# Jupyter
 .ipynb_checkpoints/
 
-# Entornos virtuales
+# Entornos
 venv/
-.env/
-
-# Sistema
-.DS_Store
+.env
 
 # Archivos temporales
-*.log
+~$*
+.DS_Store
+Thumbs.db

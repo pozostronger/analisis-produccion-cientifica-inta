@@ -4,6 +4,9 @@
 data/raw/
 data/clean/
 data/database/
+*.db
+*.sqlite
+*.sqlite3
 
 # permitir solo sample publico
 !data/sample/
